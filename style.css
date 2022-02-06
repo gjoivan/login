@@ -17,4 +17,6 @@ p {
 input {
   display: block;
   border: 2px solid;
+  border-color: crimson;
+  background: darkmagenta;
 }
