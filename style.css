@@ -1,0 +1,20 @@
+body {
+  background: rgb(110, 110, 216);
+  align-items: center;
+}
+li {
+  color: brown;
+}
+a {
+  color: crimson;
+  text-size-adjust: 50px;
+}
+p {
+  display: block inline;
+  font-size: large;
+  text-size-adjust: 16px;
+}
+input {
+  display: block;
+  border: 2px solid;
+}
