@@ -6,6 +6,22 @@ if(!empty($_POST['logout'])){
     $y = "You are logged out";
 }
 $route = !empty($_GET['route']) ? $_GET['route'] : 'home';
+$cars = array(
+    'Ford' => ['model'=>'Mondeo', 'year'=>'2004', 'fuel'=>'disel', 'transmision'=>'manual','manifacturer'=>'Ford'],
+    'VW'=>['model'=>'Golf', 'year'=>'2005', 'fuel'=>'disel', 'transmision'=>'manual', 'manifacturer'=>'VW']
+);
+$car_manifacturers = array();
+foreach($cars as $car){
+    foreach($car as $spec){
+        // $key_value = $spec;
+        //var_dump($key_value);
+    }
+    //var_dump($spec);
+    
+    array_push($car_manifacturers, $spec);
+}
+var_dump($cars[$car_manifacturers[0]]);
+
 ?>
 
 <!DOCTYPE html>
